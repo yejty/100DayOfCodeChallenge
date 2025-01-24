@@ -35,6 +35,8 @@ queue = Queue()
 queue.enqueue(1)
 queue.enqueue(2)
 queue.enqueue(3)
+queue.enqueue(4)
+queue.enqueue(5)
 '''print(queue.size())
 print(queue.peek())
 print(queue.dequeue())
@@ -47,15 +49,17 @@ queue.enqueue(3)
 queue.print_queue()'''
 
 def reverse_queue(queue):
-    print("Old queue")
+    print("Queue")
     queue.print_queue()
     items = []
-    items.append(queue)
-    new_queue = Queue()
-    for i in range(len(items) - 1, 0, -1):
-        print(items[i])
-        new_queue.enqueue(items[i])
-    print("New queue")
-    new_queue.print_queue()
 
+    for i in range(queue.size()):
+        items.append(queue.dequeue())
+
+    for i in range(len(items), 0, -1):
+        queue.enqueue(items[i-1])
+        
+    print("Reversed queue")
+    queue.print_queue()
+    
 reverse_queue(queue)
