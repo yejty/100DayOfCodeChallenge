@@ -18,8 +18,8 @@ Welcome to my **100 Days of Code** journey! This challenge is about consistent d
 ### Week 1
 | Day | Date  | Focus/Project                    | Notes/Resources |
 |-----|-------|----------------------------------|-----------------|
-| 1   | 23-01 | [MoshTask/reverse_queue](#link)  | Summary         |
-| 2   | 24-01 | [Project/stack](#link)           | Summary         |
+| 1   | 23-01 | [reverse_queue](https://github.com/yejty/100DayOfCodingChallenge/blob/main/reverse_queue.py)  | Summary         |
+| 2   | 24-01 | [stack](https://github.com/yejty/100DayOfCodingChallenge/blob/main/stack.py)           | Summary         |
 
 *...repeat daily logs for 100 days...*
 
@@ -29,9 +29,10 @@ Welcome to my **100 Days of Code** journey! This challenge is about consistent d
 - **README.md**: Challenge overview.
 
 ## 🛠️ Tools & Tech
-- Programming Languages: python
-- Frameworks/Libraries: [List frameworks here]
-- Tools: [IDE, version control, etc.]
+- **Programming Languages**: Python  
+- **Editor**: Visual Studio Code  
+- **Frameworks/Libraries**:
+- **Tools**: Git, Python Debugger, VS Code Extensions (e.g., Python, Pylance)
 
 ## 📜 Resources
 - [Resource 1](#link)
