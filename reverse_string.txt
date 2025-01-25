@@ -1,0 +1,20 @@
+When I am building a new output string inside a loop, everytime when I add a new character to this string, I create a new string. 
+So when I have n characters, I create n times a new string.
+Command output_string += input_string[i-1] has time complexity O(n) in most of programming languages and python is not an exception. 
+Strings in Python are immutable. 
+This means that once a string is created, its content cannot be changed. 
+Any operation that modifies a string creates a new string rather than altering the original one.
+Why are strings immutable in Python?
+Efficiency: Immutable objects are faster because they are thread-safe and can be cached or reused.
+Hashability: Since strings are immutable, they are hashable and can be used as keys in dictionaries or elements in sets.
+
+And command is in a for-loop, so time complexity grows to O(n^2).
+
+Would using a stack resolve my problem? No. We have same problem and we need to build stack, which uses more memory.
+
+In java exists a StringBuilder, which solve this problem in O(n). 
+Python ha io.StringIO() object.
+
+To solution belongs edge cases! And keep them in mind when writting code.
+
+#https://cdn.codewithmosh.com/video/upload/v1717093010/weekly-challenges/reverse-string.mp4
