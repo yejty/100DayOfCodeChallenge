@@ -36,7 +36,6 @@ Welcome to my **100 Days of Code** journey! This challenge is about consistent d
 
 ## 📜 Resources
 - [Resource 1](#link)
-- [Resource 2](#link)
 
 ## 🌟 Acknowledgments
 - Inspired by [100 Days of Code](https://www.100daysofcode.com/).
